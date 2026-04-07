@@ -1,0 +1,5 @@
+name=No Extra Car Damage (MP)
+id=apocalipsebrvehicledamagempfix
+description=Fixes vehicle collision damage being massively multiplied in multiplayer. Patches VehicleHitField.class with server-side deduplication to prevent per-frame packet spam from stacking vehicle damage. Java classpath override — no Lua changes.
+modversion=2.0.0
+versionMin=42.0.0
