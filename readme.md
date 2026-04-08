@@ -79,7 +79,7 @@ Restart the server after deploying.
 
 ## Compatibility
 
-- Build 42+
+- Build 42.16.x
 - Multiplayer only (does nothing in singleplayer)
 - Safe to add or remove mid-save
 
