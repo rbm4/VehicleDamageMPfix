@@ -1,4 +1,6 @@
-# Vehicle Damage MP Fix
+# Vehicle Damage MP Fix - A Project Zomboid B42.16.x fix
+
+Presented by [APOCALIPSE [BR]](https://apocalipse.cloud/) - A Brazilian Project Zomboid private server.
 
 Fixes a vanilla multiplayer bug where vehicle collision damage is massively multiplied, destroying cars far faster than intended.
 
@@ -59,7 +61,7 @@ Inside this mod's folders, there's a `tools/` folder that contains two self-cont
 
 ### Option B — Manual deployment
 
-If you don't have knowledge about scripts, you can get the `VehicleHitField.class` from `tools/out/classes/zombie/network/fields/hit/VehicleHitField.class` (after running a script once, or from a release) and place it manually:
+If you don't have knowledge about scripts, you can get the `VehicleHitField.class` from `tools/out/classes/zombie/network/fields/hit/VehicleHitField.class` and place it manually:
 
 - **Windows dedicated server:** Copy `VehicleHitField.class` to `<ProjectZomboid>/zombie/network/fields/hit/` (create the folders if they don't exist). This is the same directory that contains `projectzomboid.jar`, with the package path appended.
 - **Linux dedicated server:** Copy to `<PZServer>/java/zombie/network/fields/hit/` (Linux servers use the `java/` subdirectory as classpath root).
