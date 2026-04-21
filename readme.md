@@ -1,4 +1,4 @@
-# Vehicle Damage MP Fix - A Project Zomboid B42.16.x fix
+# Vehicle Damage MP Fix - A Project Zomboid B42.16.x / B42.17.x fix
 
 Presented by [APOCALIPSE [BR]](https://apocalipse.cloud/) - A Brazilian Project Zomboid private server.
 
@@ -79,7 +79,7 @@ Restart the server after deploying.
 
 ## Compatibility
 
-- Build 42.16.x
+- Build 42.16.x, 42.17.x
 - Multiplayer only (does nothing in singleplayer)
 - Safe to add or remove mid-save
 
